@@ -1,6 +1,8 @@
 import turtle as t
 import random
 
+screen = t.Screen()
+screen.setup(width=1.0, height=1.0)
 t.speed(20)
 t.bgcolor('black')
 t.hideturtle()
